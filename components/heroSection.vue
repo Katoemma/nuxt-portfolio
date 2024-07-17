@@ -2,7 +2,7 @@
 
 </script>
 <template>
-<div class="flex flex-col md:flex-row  items-center gap-10 text-white p-10">
+<div class="flex flex-col md:flex-row   gap-10 text-white p-10">
     <div class="hidden md:block">
         <HeroTabMenu />
     </div>
