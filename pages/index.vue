@@ -5,5 +5,7 @@ definePageMeta({
 
 </script>
 <template>
-
+<div>
+    <HeroSection />
+</div>
 </template>

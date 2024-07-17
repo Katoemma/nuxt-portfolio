@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <div class="bg-gray-900 ibm-plex">
+    <div class="bg-gray-800 ibm-plex">
         <Header />
         <slot />
     </div>
