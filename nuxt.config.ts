@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   app:{
     head:{
+      meta:[
+        {name:"google-site-verification" ,content:"gou_f9toi6892gALgLnU2LJS3FwPw-ZWQ0a3tIvynQM"}
+      ],
       link:[
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
