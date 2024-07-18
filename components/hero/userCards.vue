@@ -6,7 +6,7 @@
         <div class="border-4  flex flex-col justify-center p-12 rounded-ss-[30%] rounded-br-[30%]">
         <!-- Avatar -->
           <div class="flex justify-center">
-            <img src="../../public/avatar.jpg" alt="user avatar" class="w-20 h-20 rounded-full border-4 border-teal-400">
+            <img src="../../public/avatar.jpg" alt="user avatar" class="w-20 h-20 rounded-full border-4 border-teal-400 ">
         </div>
         <!-- Name -->
           <div class="flex justify-center mt-2">
@@ -46,8 +46,8 @@
             </span>
         </div>
 
-        <button class="bg-gray-100 text-gray-700 p-3 rounded-full mt-8">
-              <i class="fa fa-download"></i>
+        <button class="bg-gray-100 text-gray-700 p-3 rounded-full mt-8 animate-bounce">
+              <i class="fa fa-download "></i>
             Download CV
         </button>
 

@@ -13,7 +13,7 @@
         <span class="text-teal-400 text-2xl">
             Let's Talk
         </span>
-        <i class="fa fa-envelope-o bg-gray-500 text-teal-400 p-2 rounded-full" aria-hidden="true"></i>
+        <i class="fa fa-envelope-o bg-gray-500 text-teal-400 p-2 rounded-full animate-pulse" aria-hidden="true"></i>
     </div>
 </div>
 
