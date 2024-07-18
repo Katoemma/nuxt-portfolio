@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  site: {
+    url: 'https://katoemma.netlify.app',
+  },
   app:{
     head:{
       meta:[
@@ -16,7 +19,5 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules:[
-    '@nuxtjs/tailwindcss'
-  ]
+  modules:['@nuxtjs/tailwindcss', "@nuxtjs/sitemap"]
 })
