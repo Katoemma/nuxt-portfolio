@@ -27,7 +27,7 @@ onMounted(() => {
 </script>
 <template>
     <div class="flex flex-col items-center justify-center h-96 motion-safe:animate-pulse">
-      <div class="relative w-96 h-96">
+      <div class="relative w-72 md:w-96 h-72 md:h-96">
         <div class="absolute inset-0 flex justify-center items-center">
           <div v-for="(skill, index) in skills" :key="index" :style="{ transform: skill.transform }" class="absolute flex items-center justify-center w-16 h-16 bg-teal-500 rounded-full text-white shadow-md">
             <p class="text-xs font-bold">{{ skill.name }}</p>

@@ -32,8 +32,8 @@
                     </NuxtLink>
                     <div class="">
                         <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/project_management_coursefees.jpg"
-                            class="w-96 absolute z-0" alt="">
-                        <img src="../public/mac_screen.png" class="relative w-96 z-10" alt="">
+                            class="w-72 md:w-96 absolute z-0" alt="">
+                        <img src="../public/mac_screen.png" class="relative w-72 md:w-96 z-10" alt="">
                     </div>
 
                 </div>
