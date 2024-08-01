@@ -17,5 +17,6 @@ useHead({
     <SkillsSection />
     <WorksSection />
     <BlogSection />
+    <ContactSection />
 </div>
 </template>

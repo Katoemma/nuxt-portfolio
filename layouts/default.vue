@@ -5,6 +5,7 @@
     <div class="bg-gray-800 ibm-plex">
         <Header />
         <slot />
+        <Footer />
     </div>
     
 </template>
