@@ -17,7 +17,7 @@
 
 
             <form class="flex flex-col gap-4 w-full mt-8 py-8">
-                <div class="flex justify-between gap-8">
+                <div class="flex flex-col md:flex-row justify-between gap-8">
                     <div class="flex flex-col">
                         <label for="name" class="text-sm text-teal-600">Your name*</label>
                         <input type="text" class="border-b border-teal-500 bg-transparent" placeholder="Enter your name"
