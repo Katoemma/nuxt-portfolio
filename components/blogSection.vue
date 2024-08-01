@@ -26,7 +26,7 @@
                         involved in creating websites for the internet…
                     </p>
                     <!-- read more button -->
-                    <NuxtLink to="/blog">
+                    <NuxtLink to="/blogs">
                         <div class="flex items-center gap-2 text-teal-500">
                             <span class="underline underline-offset-8 decoration-white">Read more</span>
                             <i class="fa fa-angle-double-right"></i>
@@ -45,12 +45,12 @@
             <hr>
             <div class="mt-8 flex gap-6 justify-center py-6">
                 <!-- view more button -->
-                 <NuxtLink to="/blog">
+                 <NuxtLink to="/blogs">
                     <div class="bg-teal-500 p-2 px-6 rounded-3xl text-gray-800">
                         View more
                     </div>
                  </NuxtLink>
-                 <NuxtLink to="/blog">
+                 <NuxtLink to="/blogs">
                     <div class=" p-2 px-6 border border-teal-500 rounded-3xl text-gray-100">
                         Subscribe
                     </div>
