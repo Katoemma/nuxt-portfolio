@@ -15,5 +15,6 @@ useHead({
     <HeroSection />
     <AboutSection />
     <SkillsSection />
+    <WorksSection />
 </div>
 </template>
