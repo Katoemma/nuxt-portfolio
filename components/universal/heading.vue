@@ -4,7 +4,10 @@
 <template>
     <div>
         <div class="text-center">
-        <h1 class="text-6xl font-bold text-teal-400">Skills</h1>
+        
+        <h1 class="text-6xl font-bold text-teal-400">
+            <slot name="title">Skills</slot>
+        </h1>
         <div class="custom-line w-full bg-teal-500 after:bg-teal-500 before:bg-teal-500">
             <div></div>
         </div>
