@@ -21,9 +21,16 @@
                 </div>
                 <!-- instagram card -->
                 <div class="hidden md:flex">
-                    <HeaderSocialCard :title="'twitter'" :icon="'fa fa-twitter-square'" />
-                    <HeaderSocialCard :title="'LinkedIn'" :icon="'fa fa-linkedin-square'" />
-                    <HeaderSocialCard :title="'Github'" :icon="'fa fa-github'"/>
+                    <NuxtLink to="https://x.com/emmy1_kato" target="_blank">
+                        <HeaderSocialCard :title="'twitter'" :icon="'fa fa-twitter-square'" />
+                    </NuxtLink>
+                    <NuxtLink to="https://www.linkedin.com/in/kato-emmanuel-14335723a/" target="_blank">
+                        <HeaderSocialCard :title="'LinkedIn'" :icon="'fa fa-linkedin-square'" />
+                    </NuxtLink>
+                    <NuxtLink to="https://github.com/Katoemma" target="_blank">
+                        <HeaderSocialCard :title="'Github'" :icon="'fa fa-github'"/>
+                    </NuxtLink>
+                    
                 </div>
 
             </div>

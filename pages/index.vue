@@ -6,17 +6,17 @@ definePageMeta({
 useHead({
   title: 'Kato Emmanuel | Software Engineer',
   meta: [
-    { name: 'description', content: 'Home page description' },]
+    { name: 'description', content: 'Home page description' },],
 })
 
 </script>
 <template>
-<div>
+  <div>
     <HeroSection />
     <AboutSection />
     <SkillsSection />
     <WorksSection />
     <BlogSection />
     <ContactSection />
-</div>
+  </div>
 </template>

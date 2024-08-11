@@ -15,6 +15,9 @@
                 <p class="text-white">Privacy Policy</p>
                 <p class="text-white">Terms & Conditions</p>
             </div>
+            <nuxt-link to="/admin/">
+                <p class="text-white">Admin</p>
+            </nuxt-link>
         </div>
     </div>
 </template>
