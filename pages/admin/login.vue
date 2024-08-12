@@ -1,7 +1,30 @@
 <script setup>
+const supabase = useSupabaseClient()
 definePageMeta({
     layout: 'auth',
 })
+
+const email = ref('')
+const password = ref('')
+
+const login = async () => {
+    try {
+        const {data, error} = await supabase.auth.signInWithPassword({
+            email: email.value,
+            password: password.value,
+        })
+
+        if (!error) {
+            // Redirect to dashboard
+            console.log(data)
+            //navigateTo('/admin/dashboard')
+        } else {
+           console.log(error)
+        }
+    } catch (error) {
+        console.error(error)
+    }
+}
 </script>
 <template>
     <div>
@@ -23,7 +46,7 @@ definePageMeta({
                     class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
                     placeholder="Enter your password" />
             </div>
-            <button type="submit" class="w-full bg-green-500 text-white p-3 rounded-lg hover:bg-green-600 transition">
+            <button @click="login" class="w-full bg-green-500 text-white p-3 rounded-lg hover:bg-green-600 transition">
                 Login
             </button>
         </form>
