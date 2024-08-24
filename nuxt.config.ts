@@ -22,5 +22,8 @@ export default defineNuxtConfig({
   supabase: {
     redirect: false
     },
-  modules:['@nuxtjs/tailwindcss', "@nuxtjs/sitemap", "@nuxtjs/supabase"]
+  modules:['@nuxtjs/tailwindcss', "@nuxtjs/sitemap", "@nuxtjs/supabase",'@nuxtjs/color-mode'],
+  colorMode: {
+    classSuffix: ''
+  }
 })
