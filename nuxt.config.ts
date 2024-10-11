@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   app:{
     head:{
       meta:[
-        {name:"google-site-verification" ,content:"gou_f9toi6892gALgLnU2LJS3FwPw-ZWQ0a3tIvynQM"}
+        {name:"google-site-verification" ,content:"_OByXu8V1L9-5F_6NM9ApxVT1Np5DZctpKdzHXkb5xM"}
       ],
       link:[
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' },
